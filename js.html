@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>java-script 1</title>
+    <script>
+        document.write("Hyderabad");
+    </script>
+    <script type="text/java-script" src="./js1.js"></script>
+
+   
+</head>
+<body>
+    <script>
+        document.write("hello all");
+    </script>
+<script>
+    function hello(){
+    document.write('hello everyone');
+    }
+    hello();
+</script>
+
+<script>
+    function hi(){
+        document.write("hiiiii");
+    }
+    hi();
+
+</script>
+<script>
+    function multiply(number){
+        alert(number*number*number)
+    }
+</script>
+<input type="button" value="click here" onclick="multiply(2)">
+<script>
+    var x=30;
+    document.write(x);
+</script>
+<script>
+     var a=60;
+    function add(){ 
+        document.write(a);
+    }
+    add();
+    document.write(a*20);
+</script>
+<script>
+    var x=30;
+    var y=20;
+    var z=x+y;
+    document.write(z);
+
+</script>
+
+<!--OPERATERS-->
+<script>
+let f= 40;
+let g= 50;
+document.write(f+g);
+
+</script>
+
+<script>
+    let d= 40;
+    let e= 40;
+sum = (d+e)
+    document.write(sum);
+
+document.write(d++);
+document.write(++d);
+
+  document.write(f=d+1)  ;
+
+    </script>
+    <script>
+        let h=30;
+        let i=20;
+        i-=10
+        document.write(h+=9);
+        document.write(i);
+
+</script>
+<script>//IF ELSE CONDITION
+        var j=10;
+        if(j>40){
+        document.write("j value is greater than 40");
+        }
+        else{
+            document.write("j is lesser than 40");
+        }
+
+        
+    </script>
+    <script>//IF ELSE IF CONDITION
+      
+      var marks=74;
+      if(marks>90){
+        document.write("A+grade");
+      }else if(marks>80){
+        document.write("A grade");
+      }else if(marks>65){
+        document.write("C grade");
+      }else{
+        document.write("fail");
+      }
+    </script>
+
+    <!--LOOPS-->
+
+<script>
+for(k=11; k<=20; k++){
+    document.write("hi bye");
+}
+</script>
+
+<script>
+    for(k=1; k<=10; k++){
+        document.write("2*"+"k"+"="+2*k+"<br/>");
+    }
+    </script>
+
+ <!--while-LOOPS-->
+
+    <script>
+        var m=20;
+        while(m<=30){
+            document.write(m+"<br/>");
+            m=m+2;
+        }
+    </script>
+
+     <!--DO-while-LOOPS-->
+<br/>
+     <SCRIPT>
+           var n=30;
+           do{
+            document.write(n+ "<br/><br/>");
+            n=n+3;
+           }
+        while(n<=40);
+     </SCRIPT>
+
+<SCRIPT>
+    var o=35;
+    do{
+     document.write(o+ "<br/><br/>");
+     o=o+3;
+    }
+ while(o>=40);
+ </script>
+
+<script>
+    var score=56;
+    switch(true){
+        case score>90: result="a grade";
+        break;
+        case score>70: result="b grade";
+        break;
+        case score>40: result="C grade";
+        break;
+        default: result="fail";
+    }
+   document.write(result);
+</script>
+
+<!--==equals to if-else-->
+<br/>
+<script>//comparision operators
+    var p=10;
+    var q=20;
+    if(p==q){
+        document.write("true");}
+        else{
+            document.write("false");
+    }
+</script>
+
+<script>
+    var p=10;
+    var q=20;
+    if(p!=q){  //>,<,<=,>=
+        document.write("true");}
+        else{
+            document.write("false");
+    }
+</script>
+
+
+<script>
+    var p=10;
+    var q=20;
+    if(p<q&& q>p){  
+        document.write("true");}
+        else{
+            document.write("false");
+    }
+
+
+</script>
+
+<br/>
+<script>
+    var p=10;
+    var q=20;
+    if(p>q || q>p){  
+        document.write("true");}
+        else{
+            document.write("false");
+    }
+
+    
+</script>
+<script>
+    var students=["ram", "raj","rahul","bheem","shyam"];
+        for(i=0; i<students.lengthl;i++){
+            document.write(students[i]+"<br/>");
+        }
+</script>
+
+</html>
